@@ -1,0 +1,23 @@
+service: my-rest-api
+provider:
+  name: aws
+  runtime: nodejs14.x
+  stage: testing
+  region: ap-south-1
+
+functions:
+  app:
+    handler: index.handler
+    events:
+      - http:
+          path: /items
+          method: GET
+      - http:
+          path: /items
+          method: POST
+      - http:
+          path: /items/{index}
+          method: PUT
+      - http:
+          path: /items/{index}
+          method: DELETE
