@@ -1,3 +1,5 @@
+/* The code you provided is a basic Express.js server that handles HTTP requests for a simple item
+management system. Here's a breakdown of what it does: */
 const express = require('express');
 const serverless = require('serverless-http');
 

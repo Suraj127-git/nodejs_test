@@ -1,3 +1,4 @@
+#The code you provided is a configuration file for a serverless application using the AWS provider.
 service: my-rest-api
 provider:
   name: aws
