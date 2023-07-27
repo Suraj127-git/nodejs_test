@@ -21,3 +21,4 @@ functions:
       - http:
           path: /items/{index}
           method: DELETE
+
